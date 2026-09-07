@@ -1,3 +1,10 @@
-#vscode
-
+# Build outputs and temporary files
+bin/
+obj/
+*.class
+*.pyc
+__pycache__/
+node_modules/
 .vscode/*
+.idea/*
+*.drawio.bkp
