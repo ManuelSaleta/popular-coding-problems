@@ -1,18 +1,19 @@
 # Coding Challenges & Problem Solutions
 
-A consolidated, multi-language repository for LeetCode, HackerRank, and foundational algorithm/data structure problem solutions.
+A consolidated, multi-language repository for LeetCode, HackerRank, algorithm/data structure implementations, and OOP design pattern exercises.
 
 ---
 
 ## 📁 Repository Structure
 
 ```
-├── csharp/         # C# (.NET) solutions
-├── java/           # Java algorithm & data structure implementations
-├── javascript/     # JavaScript solutions
-├── python/         # Python sketches & solutions
-├── ruby/           # Ruby solutions (LeetCode & HackerRank)
-└── typescript/     # TypeScript solutions
+├── csharp/                 # C# (.NET) solutions & OOP design patterns
+│   └── design_patterns/    # SOLID principles examples
+├── java/                   # Java algorithm & data structure implementations
+├── javascript/             # JavaScript solutions
+├── python/                 # Python sketches & solutions
+├── ruby/                   # Ruby solutions (LeetCode & HackerRank)
+└── typescript/             # TypeScript solutions
 ```
 
 ---
@@ -20,6 +21,8 @@ A consolidated, multi-language repository for LeetCode, HackerRank, and foundati
 ## 📚 Problems by Language
 
 ### 🔷 C# (`/csharp`)
+
+#### LeetCode Problems
 | Problem | File | Topic / Platform |
 | :--- | :--- | :--- |
 | Reverse Integer | [`leetcode_07_reverse_integer.cs`](csharp/leetcode_07_reverse_integer.cs) | LeetCode #7 |
@@ -28,6 +31,14 @@ A consolidated, multi-language repository for LeetCode, HackerRank, and foundati
 | Remove Duplicates from Sorted List | [`leetcode_83_RemoveDuplicatesSortedList.cs`](csharp/leetcode_83_RemoveDuplicatesSortedList.cs) | LeetCode #83 |
 | Find the Difference | [`leetcode_389_FindTheDifference.cs`](csharp/leetcode_389_FindTheDifference.cs) | LeetCode #389 |
 | Is Subsequence | [`leetcode_392_is_Subsequence.cs`](csharp/leetcode_392_is_Subsequence.cs) | LeetCode #392 |
+
+#### SOLID Design Patterns (`/csharp/design_patterns`)
+| Principle | File | Focus |
+| :--- | :--- | :--- |
+| Single Responsibility | [`SingleResponsibilityPrinciple.cs`](csharp/design_patterns/SingleResponsibilityPrinciple.cs) | SRP separation of concerns |
+| Open / Closed | [`OpenClosePrinciple.cs`](csharp/design_patterns/OpenClosePrinciple.cs) | Specification pattern extension |
+| Liskov Substitution | [`LiskovSubstitutionPrinciple.cs`](csharp/design_patterns/LiskovSubstitutionPrinciple.cs) | Subtype substitutability |
+| Interface Segregation | [`InterfaceSegregationPrinciple.cs`](csharp/design_patterns/InterfaceSegregationPrinciple.cs) | Granular interface composition |
 
 ---
 
